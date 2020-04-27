@@ -8,15 +8,14 @@
 		body{
 			font-family: "roboto";
 		}
-		@media (max-width: 800px){
-			.projeto{
-				margin-right: 25px;
-			
+		@media  (max-width: 500px){
+			.galeria2> .projeto{
+				margin-right: 0px;
 			}
 			.galeria2{
 				flex-direction: column; 
 			}
-			.icons-rodape{
+			#rodape> .icons-rodape{
 				text-align: center;
 			}
 		}
@@ -31,7 +30,7 @@
 			position: relative;
 			font-size: 20px;
 			font-family: "roboto";
-			max-width: 640px;
+			max-width: 620px;
 			color: #777777; 
 			line-height: 40px;
 			text-align: justify;
