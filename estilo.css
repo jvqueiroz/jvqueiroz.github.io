@@ -108,6 +108,14 @@
 			font-size: 20px;
 			padding: 10px;
 		}
+		.title-modal{
+			font-size: 15px;
+			margin-right: 5px;
+			color: #8A8B8D;
+			font-weight: bold;
+			text-align: center;
+
+		}
 		.icon{
 			color: white;
 		}
@@ -170,6 +178,25 @@
 		}
 		.icons-rodape{
 			text-align: right;
+		}
+		.background{
+			background: rgb(0,0,0,0.10);
+		}
+		.conteudo-modal{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.descricao-modal{
+			padding: 5px;
+			text-align: justify;
+			margin-bottom: 10px;
+		}
+		.img-modal{
+			margin-bottom: 20px;
+			margin-top: 20px;
+			position: relative;
 		}
 
 
