@@ -75,7 +75,7 @@
 			border: 2px white solid;
 			border-radius: 5px;
 			background: #ffff;
-			width: 300px;
+			max-width: 350px;
 			text-align: center;
 			padding: 4px 18px; 
 			font-family: "roboto";
@@ -84,7 +84,7 @@
 		.title2{
 			color: white;
 			border-right: 1px white solid; 
-			max-width: 555px;
+			max-width: 600px;
 			font-size: 50px;
 			position: relative;
 			font-family: "roboto";
@@ -107,14 +107,6 @@
 			color: white;
 			font-size: 20px;
 			padding: 10px;
-		}
-		.title-modal{
-			font-size: 15px;
-			margin-right: 5px;
-			color: #8A8B8D;
-			font-weight: bold;
-			text-align: center;
-
 		}
 		.icon{
 			color: white;
@@ -193,10 +185,31 @@
 			text-align: justify;
 			margin-bottom: 10px;
 		}
+		.title-modal{
+			font-size: 15px;
+			margin-right: 5px;
+			color: #8A8B8D;
+			font-weight: bold;
+			text-align: center;
+
+		}
+		.title-modal2{
+			font-size: 20px;
+			font-weight: bold;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding: 10px;
+		}
 		.img-modal{
 			margin-bottom: 20px;
 			margin-top: 20px;
 			position: relative;
+		}
+		.row2{
+			display: -ms-flexbox;
+    		display: flex;
+    		-ms-flex-wrap: wrap;
+    		flex-wrap: wrap;
 		}
 
 
