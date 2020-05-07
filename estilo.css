@@ -9,7 +9,7 @@
 			font-family: "roboto";
 			overflow-x: hidden;
 		}
-		@media  (max-width: 500px){
+		@media screen and (max-width: 767px){
 			.galeria2> .projeto{
 				margin-right: 0px;
 			}
